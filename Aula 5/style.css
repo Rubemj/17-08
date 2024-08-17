@@ -1,0 +1,98 @@
+body, h1, h2, p{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header{
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    text-align: center;
+
+}
+
+header h1{
+    margin-bottom: 10px;
+}
+
+.content{
+    margin-bottom: 30px;
+}
+
+.exemplo h2{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+}
+
+.block{
+    display: block;
+    background-color: brown;
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.inline{
+    display: inline;
+    background-color: chartreuse;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.inline-block{
+    display: inline-block;
+    background-color: violet;
+    margin-right: 5px;
+    padding: 5px;
+    margin-top: 10px;   
+}
+
+/*caixa de elementos flutuantes*/
+
+.caixa-flutuante{
+    margin-bottom: 30px;
+    overflow: auto;
+}
+
+.float-left{
+float: left;
+width: 45%;
+background-color: darkgreen;
+padding: 15px;
+margin-right: 10px;
+margin-bottom: 15px;
+}
+
+.float-right{
+    float: right;
+    width: 45%;
+    background-color: chocolate;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.clear{
+    clear: both;
+    background-color: crimson;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.grid-conteiner{
+    background-color: cornflowerblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-item{
+    background-color: darkred;
+    padding: 20px;
+    text-align: center;
+}
